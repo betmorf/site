@@ -1,0 +1,44 @@
+p.text:not(:empty) {
+  color: grey
+}
+
+p.text:empty::before {
+  content: attr(title);
+}
+
+
+p.
+
+#some_id::before {
+  content: "123";
+  color: red;
+  text-decoration: overline;
+}
+
+.main_link{
+  color: red;
+  text-decoration: none;
+
+}
+
+.main_link:hover {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
+}
+
+
+.main_link:active{
+  text-decoration: line-through;
+}
+
+
+.main_link1:visited {
+  color: grey;
+}
+
+
+input:required {}
+input {color: blue}
+input:focus {color: red}

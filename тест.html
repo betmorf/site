@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="bet">
+    <meta name="description" content="site">
+    <meta name="keywords" content="bet,test,ты-нашел-пасхалку">
+
+    <title>Home</title>
+  </head>
+  <body>
+    <center>
+    <h1>Тестовая страница HTML</h1>
+    <hr>
+    </center>
+<!-- Списки -->
+    <div title="Списки">
+      <ol title="Список">
+        <li>Сосиски</li>
+        <li>Сыр</li>
+        <li>Мясо</li>
+        <li>Хлеб</li>
+      </ol>
+      <ul title="Список" type="">
+        <li>Сосиски</li>
+        <li>Сыр</li>
+        <li>Мясо</li>
+        <li>Хлеб</li>
+      </ul>
+      <hr>
+    </div>
+<!-- Ссылки -->
+    <div title="Ссылки">
+      <a href="#bottom">Вниз</a> <br>
+      <a href="https://google.com" target="_blank" title="Нажми на меня">Перейти в Google</a> <br>
+      <a href="mailto:admin@gmail.com">Написать на почту</a>
+      <hr>
+    </div>
+<!-- Изображения -->
+    <div title="Изображения">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Habachtal_Talschluss_2016.jpg" width="70%" title="Картинка" alt="Горы"> <br>
+      <img src="img/download.jpg" width="70%" title="Картинка" alt="Дерево"> <br>
+      <hr>
+    </div>
+<!-- Шапка/Списки -->
+    <div title="Шапка/Списки">
+      <table border="1" width="400px" title="Шапка/Списки" cellspacing="1">
+        <thead>
+          <tbody align="center">
+            <tr>
+              <th>Имя</th>
+              <th>Фамилия</th>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Dale</td>
+            </tr>
+            <tr>
+              <td>John 2</td>
+              <td>Dale</td>
+            </tr>
+            <tr>
+              <td>John 3</td>
+              <td>Dale</td>
+            </tr>
+            <tr>
+              <td>John 4</td>
+              <td>Dale</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Last</td>
+              <td>One</td>
+            </tr>
+          </tfoot>
+        </thead>
+      </table>
+      <hr>
+    </div>
+<!-- Для CSS -->
+    <div title="Нужно для СSS">
+      Просто текст
+      <div title="Нужно для СSS">Просто <span>текст</span></div>
+      <span title="Нужно для СSS">text</span>
+      <span title="Нужно для СSS">text</span>
+      <hr>
+    </div>
+<!-- Ввод и отправка данных -->
+    <div title="Ввод данных">
+      <!-- Имя -->
+      <form action="тест.html" method="post">
+        <label for="user_name" title="Нажми">Введите имя</label>
+        <input type="text" placeholder="Введите что-то" value="Женя" maxlength="20" name="user_name" id="user_name">
+      </form>
+
+      <form action="тест.html" method="post">
+        <label for="">Введите имя</label>
+        <input type="text" placeholder="Введите что-то" value="Саша" maxlength="20" readonly>
+      </form>
+
+      <form action="тест.html" method="post">
+        <label for="">Введите имя</label>
+        <input type="text" placeholder="Введите что-то" value="Артем" maxlength="20" disabled>
+        </form>
+
+        <form action="тест.html" method="post">
+          <label for="">Введите имя</label>
+          <input type="text" placeholder="Введите что-то" value="Саша" maxlength="20" hidden>
+        </form><br>
+
+        <!-- Личные данные -->
+        <input type="password" placeholder="Введите Пароль" maxlength="20" name="user_password" id="password"><br>
+        <input type="email" placeholder="Введите E-mail" name="user_email" id="email"><br>
+        <input type="url" placeholder="Введите ссылку" name="user_url" id="url1"><br><br>
+
+        <!-- время,цвет -->
+      <input type="color" name="color"><br>
+      <input type="date"  name="date"><br>
+      <input type="time" name="time"><br>
+      <input type="datetime" name="datetime" placeholder="Введите дату и время"><br><br>
+
+      <!-- галочки -->
+      <input type="checkbox" name="medicine">
+      <label for="medicine">Вы сегодня принимали лекартва?</label><br>
+      <input type="checkbox" name="work">
+      <label for="work">Вы сегодня работали?</label><br>
+      <input type="checkbox" name="food">
+      <label for="food">Вы сегодня кушали?</label><br><br>
+
+      <!-- Радио-кнопки -->
+      <input type="radio" name="food_1">
+      <input type="radio" name="food_2">
+      <input type="radio" name="food_3">
+      <input type="radio" name="food_4">
+      <input type="radio" name="food_5">
+      <label for="food_1">На сколько вы голодны?</label><br><br>
+
+      <!-- Загрузить файл -->
+      <label for="file">Загрузите призентацию</label>
+      <input type="file" name="file"><br><br>
+
+      <!-- Кнопка -->
+      <input type="button" name="click" value="Кнопка">
+      <label for="click"> - Просто кнопка</label><br>
+
+      <input type="submit">
+      <input type="reset" value="Очистить">
+      <hr>
+    </div>
+<!-- Ввод большого кличества текста -->
+    <div title="Большой текст">
+      <form>
+        <textarea placeholder="Введите сочинение">Ваш текст</textarea>
+        <button type="reset">Готово</button>
+      </form>
+      <hr>
+    </div>s
+<!-- Селектор выбора -->
+    <div title="Селектор выбора">
+      <form>
+        <select>
+          <option disabled selected>--------</option>
+          <option>BMW</option>
+          <option>AUDI</option>
+          <option>MERSEDES</option>
+        </select>
+      </form>
+      <br>
+      <br>
+      <br>
+      <form>
+        <select multiple>
+          <option disabled selected>--------</option>
+          <option>BMW</option>
+          <option>AUDI</option>
+          <option>MERSEDES</option>
+        </select>
+      </form>
+      <br>
+      <br>
+      <br>
+      <form>
+        <select multiple>
+          <option disabled>--------</option>
+          <option selected>BMW</option>
+          <option>AUDI</option>
+          <option selected>MERSEDES</option>
+        </select>
+      </form>
+      <hr>
+    </div>
+<!-- Теги -->
+    <div title="Теги">
+      <header>Шапка</header>
+      <main>Основная часть сайта</main>
+      <main>Боковая часть сайта</main>
+      <footer>Футер</footer>
+      <br>
+      <progress value="40"max="100">
+        Загружено на 40%
+      </progress>
+      <br>
+      <details>
+        <summary>Подробнее</summary>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </details>
+
+    </div>
+
+
+
+
+
+
+
+    <a name="bottom"></a> <br><br><br><br><br><br><br><br>
+  </body>
+</html>
